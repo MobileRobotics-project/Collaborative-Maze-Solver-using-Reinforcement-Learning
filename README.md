@@ -1,6 +1,6 @@
-# Collaborative-Maze-Solver-using-Reinforcement-Learning
+## Collaborative-Maze-Solver-using-Reinforcement-Learning
 
-## Table of Contents
+### Table of Contents
 - [Problem Statement](#problem-statement)
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -10,18 +10,18 @@
   - [Neural Networks in RL](#neural-networks-in-rl)
   - [Deep Q-Network (DQN)](#deep-q-network-dqn)
   - [Training Process](#training-process)
-## Problem Statement
+### Problem Statement
 
 This project aims to design a maze-solving robot system utilizing two Webots-based e-Puck robots. The system employs Deep Q-Learning algorithms to navigate from a designated starting point to a target destination within a maze environment. The robots are equipped with infrared distance sensors and cameras to gather real-time data, enabling them to collaboratively explore and navigate through the maze.
 
-## Features
+### Features
 
 - Two e-Puck robots working collaboratively
 - Deep Q-Learning algorithm for decision making
 - Real-time data gathering using infrared sensors and cameras
 - Efficient maze navigation and exploration
 
-## Getting Started
+### Getting Started
 
 To run this project on your local machine, follow these steps:
 
@@ -51,7 +51,7 @@ To run this project on your local machine, follow these steps:
    - In the Webots window, click the "Play" button to start the simulation
    - You should now see the robots navigating through the maze using the untrained DQN model
 
-## Usage
+### Usage
 
 Once you have the simulation running:
 
@@ -67,11 +67,11 @@ To stop the simulation:
   <a href="https://www.youtube.com/watch?v=YtQ5b0F2KA4"><img src="https://img.youtube.com/vi/YtQ5b0F2KA4/0.jpg" alt="IMAGE ALT TEXT"></a>
    </div>
 
-## Reinforcement Learning
+### Reinforcement Learning
 
 This project utilizes reinforcement learning, specifically Deep Q-Learning, to train the robots to navigate through the maze efficiently.
 
-### Key Concepts
+#### Key Concepts
 
 1. **Agent**: In our case, the e-Puck robots that learn to navigate the maze.
 2. **Environment**: The maze in which the robots operate.
@@ -83,7 +83,7 @@ This project utilizes reinforcement learning, specifically Deep Q-Learning, to t
    - Empty space: Small negative reward (to encourage efficient pathfinding)
 6. **Policy**: The strategy that the agent follows to determine the next action based on the current state.
 
-### Neural Networks in RL
+#### Neural Networks in RL
 
 In this project, we use a neural network to approximate the Q-function, which predicts the expected cumulative reward for each action in a given state. Our network architecture consists of:
 
@@ -91,7 +91,7 @@ In this project, we use a neural network to approximate the Q-function, which pr
 - Hidden layers: Two fully connected layers with ReLU activation
 - Output layer: Corresponds to the Q-values for each possible action
 
-### Deep Q-Network (DQN)
+#### Deep Q-Network (DQN)
 
 DQN is an advanced RL algorithm that combines Q-learning with deep neural networks. Key components of our DQN implementation include:
 
@@ -100,7 +100,7 @@ DQN is an advanced RL algorithm that combines Q-learning with deep neural networ
 3. **Experience Replay**: A buffer that stores and randomly samples past experiences (state, action, reward, next state) to break correlations between consecutive samples and improve learning stability.
 4. **Epsilon-Greedy Exploration**: A strategy that balances exploration and exploitation by sometimes taking random actions (controlled by an epsilon value that decays over time).
 
-### Training Process
+#### Training Process
 
 
 The training process for our maze-solving robots involves the following steps:
