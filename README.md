@@ -1,6 +1,8 @@
 # Collaborative-Maze-Solver-using-Reinforcement-Learning
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/YtQ5b0F2KA4?si=qDOdvIm2Ah9P4Wvd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div align="center">
+  <a href="https://www.youtube.com/watch?v=YtQ5b0F2KA4"><img src="https://img.youtube.com/vi/YtQ5b0F2KA4/0.jpg" alt="IMAGE ALT TEXT"></a>
+   </div>
 
 ## Reinforcement Learning
 
