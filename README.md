@@ -37,7 +37,10 @@ DQN is an advanced RL algorithm that combines Q-learning with deep neural networ
 
 ### Training Process
 
+
 The training process for our maze-solving robots involves the following steps:
+![flowchart](https://github.com/user-attachments/assets/1e50cf0a-944f-416a-aa90-9cacfdaa5475)
+
 
 1. **Initialization**: The robots start with random policies, and the replay buffer is empty.
 2. **Exploration and Data Collection**: 
