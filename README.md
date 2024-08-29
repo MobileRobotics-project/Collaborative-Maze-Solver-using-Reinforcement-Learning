@@ -47,15 +47,7 @@ To run this project on your local machine, follow these steps:
    - In Webots, go to File > Open World
    - Navigate to your project's `worlds` directory and select `maze_world.wbt`
 
-6. **Run the Supervisor**:
-   - Open a terminal or command prompt
-   - Navigate to your Webots project directory
-   - Run the following command:
-     ```
-     python supervisor.py
-     ```
-
-7. **Start the Simulation**:
+6. **Start the Simulation**:
    - In the Webots window, click the "Play" button to start the simulation
    - You should now see the robots navigating through the maze using the untrained DQN model
 
